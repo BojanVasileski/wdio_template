@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "es7"
+    ],
+    "target": "es5",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": [ "./*" ],
+      "pages/*": [ "./pages/*" ],
+      "test/*": [ "./tests/*" ]
+    },
+    "types": [ "@wdio/sync", "mocha", "chai", "node" ]
+  },
+  "include": [
+    "./tests/**.ts",
+    "./pages/**.ts",
+    "./utility/**.ts"
+  ],
+  "exclude": [
+    "./node_modules"
+  ],
+  "compileOnSave": false
+}
