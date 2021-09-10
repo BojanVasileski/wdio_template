@@ -7,7 +7,6 @@ class OfferQueuePage extends Page {
 
     get inProgressButton() { return $("#in-progress-tab"); }
     
-    //this is the comment that i want to push to remotes
 
     // Page specific functions/methods
     selectAppraisal(offerId : string) {
