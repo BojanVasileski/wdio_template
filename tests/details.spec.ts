@@ -8,6 +8,7 @@ describe('Legacy Intake?', () => {
  
     var offerRequestId;
     before(() => {
+     break.theCode();
         // add an appraisal through legacy intake and assign the Id
         offerRequestId = addAppraisal();
         // maximize the browser window and sign into the Offer Hub
